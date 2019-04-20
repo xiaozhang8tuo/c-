@@ -15,7 +15,7 @@ int SckSendAndRev(CSocketProtocol *sp, unsigned char *in, int inlen, unsigned ch
 	ret = sp->cltSocketSend(in, inlen);
 	if (ret != 0)
 	{ 
-		goto End  ;
+		goto End;
 	}
 	ret = sp->cltSocketRev(out, outlen);
 	if (ret != 0)
