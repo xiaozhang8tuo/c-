@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 # include <iostream>
-using namespace std;
+using namespace std; 
 #include "CSocketProtocol.h"
 #include "CSckFactoryImp1.h"
 //面向抽象类 中石油编程框架实现完毕
