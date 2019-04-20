@@ -8,7 +8,7 @@ int SckSendAndRev(CSocketProtocol *sp, unsigned char *in, int inlen, unsigned ch
 {
 	int ret = 0;
 	ret = sp->cltSocketInit();
-	if (ret != 0)
+	if (ret ! = 0)
 	{
 		goto End; 
 	}
