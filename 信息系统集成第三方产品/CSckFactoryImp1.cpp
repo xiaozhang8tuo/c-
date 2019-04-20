@@ -6,7 +6,7 @@ using namespace std;
 //客户端初始化，获取handle上下
 int CSckFactoryImp1::cltSocketInit()
  {	
-	p = NULL;
+	p = NULL ;
 	len = 0;
 	return 0;
 }
